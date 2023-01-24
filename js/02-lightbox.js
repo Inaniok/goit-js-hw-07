@@ -21,6 +21,7 @@ galleryItems.forEach(element => {
 gallery.append(...items)
 
 new SimpleLightbox('.gallery a', {
+	captionData: "alt",
 	captionDelay: 250
 })
 
